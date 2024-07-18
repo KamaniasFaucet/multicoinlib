@@ -1,9 +1,9 @@
 #
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html.
-# Run `pod lib lint coinlib_flutter.podspec` to validate before publishing.
+# Run `pod lib lint multicoinlib_flutter.podspec` to validate before publishing.
 #
 Pod::Spec.new do |s|
-  s.name             = 'coinlib_flutter'
+  s.name             = 'multicoinlib_flutter'
   s.module_name      = 'secp256k1'
   s.version          = '0.3.2'
   s.summary          = 'Cryptographic primitives from the secp256k1 library'

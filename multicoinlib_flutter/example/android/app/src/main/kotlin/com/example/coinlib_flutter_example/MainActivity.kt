@@ -1,4 +1,4 @@
-package com.example.coinlib_flutter_example
+package com.example.multicoinlib_flutter_example
 
 import io.flutter.embedding.android.FlutterActivity
 

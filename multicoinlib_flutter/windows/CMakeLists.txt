@@ -5,7 +5,7 @@
 cmake_minimum_required(VERSION 3.14)
 
 # Project-level configuration.
-set(PROJECT_NAME "coinlib_flutter")
+set(PROJECT_NAME "multicoinlib_flutter")
 project(${PROJECT_NAME} LANGUAGES CXX)
 
 # Invoke the build for native code shared with the other target platforms.
@@ -35,10 +35,10 @@ if (SECP256K1_DLL)
     # List of absolute paths to libraries that should be bundled with the plugin.
     # This list could contain prebuilt libraries, or libraries created by an
     # external build triggered from this build file.
-    set(coinlib_flutter_bundled_libraries
+    set(multicoinlib_flutter_bundled_libraries
         # Defined in ../src/CMakeLists.txt.
         # This can be changed to accommodate different builds.
-        # $<TARGET_FILE:coinlib_flutter>
+        # $<TARGET_FILE:multicoinlib_flutter>
         # TODO re-enable if/when the CMake process is made Windows-compatible.
         # See also above.
         ${SECP256K1_DLL}

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:coinlib_flutter/coinlib_flutter.dart' as multicoinlib;
+import 'package:multicoinlib_flutter/multicoinlib_flutter.dart' as multicoinlib;
 
 void main() {
   runApp(const MyApp());

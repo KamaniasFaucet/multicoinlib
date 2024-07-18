@@ -4,7 +4,7 @@
 cmake_minimum_required(VERSION 3.10)
 
 # Project-level configuration.
-set(PROJECT_NAME "coinlib_flutter")
+set(PROJECT_NAME "multicoinlib_flutter")
 project(${PROJECT_NAME} LANGUAGES C)
 
 # Invoke the build for native code shared with the other target platforms.

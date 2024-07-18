@@ -19,10 +19,10 @@ cryptocoins including Taproot support. This library allows for the construction
 and signing of transactions and management of BIP32 wallets.
 
 This repository contains the dart-only library in the `multicoinlib` directory and a
-flutter wrapper in the `coinlib_flutter` directory which includes support for
+flutter wrapper in the `multicoinlib_flutter` directory which includes support for
 flutter platforms.
 
 The packages [multicoinlib](https://pub.dev/packages/multicoinlib) and
-[coinlib_flutter](https://pub.dev/packages/coinlib_flutter) are available on
+[multicoinlib_flutter](https://pub.dev/packages/multicoinlib_flutter) are available on
 pub.dev.
 
