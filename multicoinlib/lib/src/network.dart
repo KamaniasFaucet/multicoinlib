@@ -18,13 +18,13 @@ class Network {
   });
 
   static final mainnet = Network(
-    wifPrefix: 183,
-    p2pkhPrefix: 55,
-    p2shPrefix: 117,
+    wifPrefix: 181,
+    p2pkhPrefix: 53,
+    p2shPrefix: 30,
     privHDPrefix: 0x0488ade4,
     pubHDPrefix: 0x0488b21e,
-    bech32Hrp: "pc",
-    messagePrefix: "Peercoin Signed Message:\n",
+    bech32Hrp: "dem",
+    messagePrefix: "Deutsche eMark Signed Message:\n",
     minFee: BigInt.from(1000),
     minOutput: BigInt.from(10000),
     feePerKb: BigInt.from(10000),
