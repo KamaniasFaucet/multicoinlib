@@ -61,4 +61,4 @@ export 'package:multicoinlib/src/coin_unit.dart';
 export 'package:multicoinlib/src/network.dart';
 export 'package:multicoinlib/src/taproot.dart';
 
-Future<void> loadmulticoinlib() => secp256k1.load();
+Future<void> loadMultiCoinlib() => secp256k1.load();

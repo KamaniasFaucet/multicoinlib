@@ -4,7 +4,7 @@ export 'package:multicoinlib/multicoinlib.dart';
 
 /// A widget that ensures the multicoinlib library is loaded before use. This is
 /// currently only necessary on web but it is good practice to use in any case.
-class CoinlibLoader extends StatefulWidget {
+class MultiCoinlibLoader extends StatefulWidget {
 
   /// The widget to show whilst multicoinlib is loading
   final Widget loadChild;
@@ -17,7 +17,7 @@ class CoinlibLoader extends StatefulWidget {
   /// If there is an error, the [errorBuilder] will be called with the error to
   /// obtain a widget to display. If the library loads successfully, [builder]
   /// will be called instead.
-  const CoinlibLoader({
+  const MultiCoinlibLoader({
     super.key,
     required this.loadChild,
     required this.errorBuilder,
@@ -25,11 +25,11 @@ class CoinlibLoader extends StatefulWidget {
   });
 
   @override
-  State<CoinlibLoader> createState() => _CoinlibLoaderState();
+  State<MultiCoinlibLoader> createState() => _MultiCoinlibLoaderState();
 
 }
 
-class _CoinlibLoaderState extends State<CoinlibLoader> {
+class _MultiCoinlibLoaderState extends State<MultiCoinlibLoader> {
 
   late Future<void> loadResult;
 

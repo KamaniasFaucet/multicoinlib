@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
     )
   );
 
-  Widget _getCoinLibWidget(BuildContext context) => multicoinlib.CoinlibLoader(
+  Widget _getCoinLibWidget(BuildContext context) => multicoinlib.MultiCoinlibLoader(
     loadChild: const Text("Loading multicoinlib..."),
     errorBuilder: (context, error) => Text("Error $error"),
     builder: (context) {

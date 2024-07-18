@@ -15,7 +15,7 @@
 
 This package provides flutter support for the
 [multicoinlib](https://pub.dev/packages/multicoinlib) library for Multicoin and
-other cryptocoins. A `CoinlibLoader` widget is included that must be used when
+other cryptocoins. A `MultiCoinlibLoader` widget is included that must be used when
 targeting web to ensure the library is ready to be used.
 
 An example app is provided in `example/` that demonstrates use of the loader
