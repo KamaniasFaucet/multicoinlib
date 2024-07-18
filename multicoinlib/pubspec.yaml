@@ -1,4 +1,4 @@
-name: coinlib
+name: multicoinlib
 description:
   A straight-forward, modular library for Peercoin and other Satoshi-based UTXO
   blockchains
@@ -29,5 +29,5 @@ ffigen:
   output: 'lib/src/secp256k1/secp256k1.ffi.g.dart'
   headers:
     entry-points:
-      - '../coinlib_flutter/src/secp256k1/include/secp256k1_recovery.h'
-      - '../coinlib_flutter/src/secp256k1/include/secp256k1_schnorrsig.h'
+      - '../multicoinlib_flutter/src/secp256k1/include/secp256k1_recovery.h'
+      - '../multicoinlib_flutter/src/secp256k1/include/secp256k1_schnorrsig.h'

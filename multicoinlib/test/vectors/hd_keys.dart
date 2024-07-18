@@ -1,4 +1,4 @@
-import 'package:coinlib/coinlib.dart';
+import 'package:multicoinlib/multicoinlib.dart';
 import 'package:test/test.dart';
 
 final privPrefix = Network.mainnet.privHDPrefix;

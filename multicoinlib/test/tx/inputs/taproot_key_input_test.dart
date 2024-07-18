@@ -1,5 +1,5 @@
 import 'dart:typed_data';
-import 'package:coinlib/coinlib.dart';
+import 'package:multicoinlib/multicoinlib.dart';
 import 'package:test/test.dart';
 import '../../vectors/signatures.dart';
 import '../../vectors/inputs.dart';
@@ -11,7 +11,7 @@ void main() {
     late SchnorrInputSignature insig;
 
     setUpAll(() async {
-      await loadCoinlib();
+      await loadMultiCoinlib();
       insig = SchnorrInputSignature(
         SchnorrSignature.fromHex(validSchnorrSig),
         SigHashType.none(),

@@ -1,5 +1,5 @@
 import 'dart:typed_data';
-import 'package:coinlib/coinlib.dart';
+import 'package:multicoinlib/multicoinlib.dart';
 import 'package:test/test.dart';
 import '../vectors/signatures.dart';
 
@@ -7,7 +7,7 @@ void main() {
 
   group("ECDSASignature", () {
 
-    setUpAll(loadCoinlib);
+    setUpAll(loadMultiCoinlib);
 
     final validSig = validSignatures[0];
 

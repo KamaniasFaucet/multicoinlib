@@ -1,11 +1,11 @@
-import 'package:coinlib/coinlib.dart';
+import 'package:multicoinlib/multicoinlib.dart';
 import 'package:test/test.dart';
 
 void main() {
 
   group("P2SH", () {
 
-    setUpAll(loadCoinlib);
+    setUpAll(loadMultiCoinlib);
 
     final redeemScript = Script.fromAsm("0");
     final scriptHash = "9f7fd096d37ed2c0e3f7f0cfc924beef4ffceb68";

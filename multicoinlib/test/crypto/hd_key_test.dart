@@ -1,5 +1,5 @@
 import 'dart:typed_data';
-import 'package:coinlib/coinlib.dart';
+import 'package:multicoinlib/multicoinlib.dart';
 import 'package:test/test.dart';
 import '../vectors/hd_keys.dart';
 
@@ -20,7 +20,7 @@ void main() {
 
   group("HDKey", () {
 
-    setUpAll(loadCoinlib);
+    setUpAll(loadMultiCoinlib);
 
     test("base58 decode/encode", () {
       forEachHDVector((parent, vec) {

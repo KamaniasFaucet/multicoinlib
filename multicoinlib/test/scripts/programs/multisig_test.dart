@@ -1,4 +1,4 @@
-import 'package:coinlib/coinlib.dart';
+import 'package:multicoinlib/multicoinlib.dart';
 import 'package:test/test.dart';
 import '../../vectors/keys.dart';
 
@@ -79,7 +79,7 @@ void main() {
 
   group("MultisigProgram", () {
 
-    setUpAll(loadCoinlib);
+    setUpAll(loadMultiCoinlib);
 
     expectMultisig(MultisigVector vec, MultisigProgram multisig) {
       expect(multisig.pubkeys.map((pk) => pk.hex), vec.pubkeys);

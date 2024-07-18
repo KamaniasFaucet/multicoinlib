@@ -1,5 +1,5 @@
 import 'dart:typed_data';
-import 'package:coinlib/coinlib.dart';
+import 'package:multicoinlib/multicoinlib.dart';
 import 'package:test/test.dart';
 import '../../vectors/tx.dart';
 
@@ -11,7 +11,7 @@ void signatureHasherTester(
 
   late Transaction tx;
   setUpAll(() async {
-    await loadCoinlib();
+    await loadMultiCoinlib();
     tx = Transaction.fromHex(sigHashTxHex);
   });
 

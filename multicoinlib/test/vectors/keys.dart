@@ -1,4 +1,4 @@
-import 'package:coinlib/coinlib.dart';
+import 'package:multicoinlib/multicoinlib.dart';
 
 class KeyTestVector {
   final String private;

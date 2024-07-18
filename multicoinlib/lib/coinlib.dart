@@ -1,4 +1,4 @@
 /// A dart library for Peercoin using secp256k1 with corss-platform support
-library coinlib;
+library multicoinlib;
 
-export 'src/coinlib_base.dart';
+export 'src/multicoinlib_base.dart';

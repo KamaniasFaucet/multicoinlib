@@ -1,12 +1,12 @@
 import 'dart:typed_data';
-import 'package:coinlib/coinlib.dart';
+import 'package:multicoinlib/multicoinlib.dart';
 import 'package:test/test.dart';
 
 void main() {
 
   group("NUMSPublicKey", () {
 
-    setUpAll(loadCoinlib);
+    setUpAll(loadMultiCoinlib);
 
     final exampleTweakHex
       = "2bae58ab6d9fd575bdc3a624e4825dd2b375d64ac033fbc46ea79dbab4f69a3e";

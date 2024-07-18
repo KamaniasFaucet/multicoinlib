@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:coinlib_flutter/coinlib_flutter.dart' as coinlib;
+import 'package:coinlib_flutter/coinlib_flutter.dart' as multicoinlib;
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) => MaterialApp(
     home: Scaffold(
-      appBar: AppBar(title: const Text("Coinlib Example")),
+      appBar: AppBar(title: const Text("MultiCoinlib Example")),
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.all(10),
@@ -24,12 +24,12 @@ class MyApp extends StatelessWidget {
     )
   );
 
-  Widget _getCoinLibWidget(BuildContext context) => coinlib.CoinlibLoader(
-    loadChild: const Text("Loading coinlib..."),
+  Widget _getCoinLibWidget(BuildContext context) => multicoinlib.CoinlibLoader(
+    loadChild: const Text("Loading multicoinlib..."),
     errorBuilder: (context, error) => Text("Error $error"),
     builder: (context) {
 
-      final privKey = coinlib.ECPrivateKey.fromHex(
+      final privKey = multicoinlib.ECPrivateKey.fromHex(
         "0000000000000000000000000000000000000000000000000000000000000001",
       );
 

@@ -1,8 +1,8 @@
 import 'dart:typed_data';
-import 'package:coinlib/src/common/bytes.dart';
-import 'package:coinlib/src/common/checks.dart';
-import 'package:coinlib/src/common/hex.dart';
-import 'package:coinlib/src/common/serial.dart';
+import 'package:multicoinlib/src/common/bytes.dart';
+import 'package:multicoinlib/src/common/checks.dart';
+import 'package:multicoinlib/src/common/hex.dart';
+import 'package:multicoinlib/src/common/serial.dart';
 import 'output.dart';
 
 /// Reference to an [Output] by transaction hash and index

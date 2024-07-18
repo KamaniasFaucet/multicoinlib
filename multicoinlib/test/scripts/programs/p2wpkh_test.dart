@@ -1,4 +1,4 @@
-import 'package:coinlib/coinlib.dart';
+import 'package:multicoinlib/multicoinlib.dart';
 import 'package:test/test.dart';
 import '../../vectors/keys.dart';
 
@@ -6,7 +6,7 @@ void main() {
 
   group("P2WPKH", () {
 
-    setUpAll(loadCoinlib);
+    setUpAll(loadMultiCoinlib);
 
     final asm = "0 $pubkeyhashVec";
     final script = Script.fromAsm(asm);

@@ -1,5 +1,5 @@
 import 'dart:typed_data';
-import 'package:coinlib/coinlib.dart';
+import 'package:multicoinlib/multicoinlib.dart';
 import 'package:test/test.dart';
 import '../../vectors/keys.dart';
 import '../../vectors/signatures.dart';
@@ -15,7 +15,7 @@ void main() {
     late ECDSAInputSignature insig;
 
     setUpAll(() async {
-      await loadCoinlib();
+      await loadMultiCoinlib();
       pk = ECPublicKey(pkBytes);
       insig = ECDSAInputSignature(
         ECDSASignature.fromDerHex(der),

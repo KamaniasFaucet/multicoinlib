@@ -1,4 +1,4 @@
-import 'package:coinlib/coinlib.dart';
+import 'package:multicoinlib/multicoinlib.dart';
 import 'package:test/test.dart';
 
 void expectScriptOp(ScriptOp op, String asm, String hex, int? number, bool isPush) {

@@ -1,8 +1,8 @@
 import 'dart:typed_data';
-import 'package:coinlib/src/common/serial.dart';
-import 'package:coinlib/src/crypto/hash.dart';
-import 'package:coinlib/src/tx/output.dart';
-import 'package:coinlib/src/tx/transaction.dart';
+import 'package:multicoinlib/src/common/serial.dart';
+import 'package:multicoinlib/src/crypto/hash.dart';
+import 'package:multicoinlib/src/tx/output.dart';
+import 'package:multicoinlib/src/tx/transaction.dart';
 
 typedef OutputList = List<Output>;
 

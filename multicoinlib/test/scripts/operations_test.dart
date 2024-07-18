@@ -1,6 +1,6 @@
 import 'dart:typed_data';
 import 'package:test/test.dart';
-import 'package:coinlib/coinlib.dart';
+import 'package:multicoinlib/multicoinlib.dart';
 import '../vectors/keys.dart';
 import '../vectors/signatures.dart';
 import 'common.dart';
@@ -379,7 +379,7 @@ void main() {
 
   group("ScriptPushData()", () {
 
-    setUpAll(loadCoinlib);
+    setUpAll(loadMultiCoinlib);
 
     test("pushdata compresses to op-code", () {
       expectScriptOp(ScriptPushData(Uint8List(0)), "0", "00", 0, true);

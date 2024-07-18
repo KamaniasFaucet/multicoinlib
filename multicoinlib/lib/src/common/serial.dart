@@ -1,5 +1,5 @@
 import 'dart:typed_data';
-import 'package:coinlib/src/common/hex.dart';
+import 'package:multicoinlib/src/common/hex.dart';
 
 import 'checks.dart';
 

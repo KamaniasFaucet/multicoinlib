@@ -1,6 +1,6 @@
 import 'dart:typed_data';
 
-import 'package:coinlib/coinlib.dart';
+import 'package:multicoinlib/multicoinlib.dart';
 import 'package:test/test.dart';
 import '../vectors/keys.dart';
 import '../vectors/tx.dart';
@@ -112,7 +112,7 @@ void main() {
     late P2PKHInput input;
     late P2PKH changeProgram;
     setUpAll(() async {
-      await loadCoinlib();
+      await loadMultiCoinlib();
       input = P2PKHInput(
         prevOut: examplePrevOut,
         publicKey: keyPairVectors[0].publicObj,

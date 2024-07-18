@@ -46,7 +46,7 @@ void main() async {
   if (!await dockerBuild(
       cmd,
       dockerfile,
-      "coinlib_build_secp256k1_linux",
+      "multicoinlib_build_secp256k1_linux",
       "output/libsecp256k1.so",
   )) {
     exit(1);

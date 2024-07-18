@@ -1,4 +1,4 @@
-import 'package:coinlib/coinlib.dart';
+import 'package:multicoinlib/multicoinlib.dart';
 import 'package:test/test.dart';
 
 const String txHex =
@@ -105,7 +105,7 @@ void main() {
   late Transaction tx;
 
   setUpAll(() async {
-    await loadCoinlib();
+    await loadMultiCoinlib();
     tx = Transaction.fromHex(txHex);
   });
 

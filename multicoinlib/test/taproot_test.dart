@@ -1,5 +1,5 @@
 import 'dart:typed_data';
-import 'package:coinlib/coinlib.dart';
+import 'package:multicoinlib/multicoinlib.dart';
 import 'package:test/test.dart';
 import 'vectors/taproot.dart';
 
@@ -9,7 +9,7 @@ void main() {
 
     late ECPublicKey exampleKey;
     setUpAll(() async {
-      await loadCoinlib();
+      await loadMultiCoinlib();
       exampleKey = taprootVectors[0].object.internalKey;
     });
 

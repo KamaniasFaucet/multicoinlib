@@ -1,5 +1,5 @@
 import 'dart:typed_data';
-import 'package:coinlib/coinlib.dart';
+import 'package:multicoinlib/multicoinlib.dart';
 import 'package:test/test.dart';
 import 'vectors/taproot.dart';
 
@@ -87,7 +87,7 @@ void main() {
 
     late ECPublicKey pubkey;
     setUpAll(() async {
-      await loadCoinlib();
+      await loadMultiCoinlib();
       pubkey = ECPublicKey.fromHex(
         "03aea0dfd576151cb399347aa6732f8fdf027b9ea3ea2e65fb754803f776e0a509",
       );

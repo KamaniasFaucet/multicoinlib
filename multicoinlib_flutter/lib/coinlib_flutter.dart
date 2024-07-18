@@ -1,12 +1,12 @@
 import 'package:flutter/widgets.dart';
-import 'package:coinlib/coinlib.dart';
-export 'package:coinlib/coinlib.dart';
+import 'package:multicoinlib/multicoinlib.dart';
+export 'package:multicoinlib/multicoinlib.dart';
 
-/// A widget that ensures the coinlib library is loaded before use. This is
+/// A widget that ensures the multicoinlib library is loaded before use. This is
 /// currently only necessary on web but it is good practice to use in any case.
 class CoinlibLoader extends StatefulWidget {
 
-  /// The widget to show whilst coinlib is loading
+  /// The widget to show whilst multicoinlib is loading
   final Widget loadChild;
   /// The builder for a library load error
   final Widget Function(BuildContext context, Object? error) errorBuilder;
@@ -36,7 +36,7 @@ class _CoinlibLoaderState extends State<CoinlibLoader> {
   @override
   void initState() {
     super.initState();
-    loadResult = loadCoinlib();
+    loadResult = loadMultiCoinlib();
   }
 
   @override

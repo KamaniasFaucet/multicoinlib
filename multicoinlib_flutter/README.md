@@ -1,7 +1,7 @@
 <p align="center">
   <img
-    src="https://raw.githubusercontent.com/peercoin/coinlib/master/logo.svg"
-    alt="Coinlib"
+    src="https://raw.githubusercontent.com/peercoin/multicoinlib/master/logo.svg"
+    alt="MultiCoinlib"
     width="250px"
   >
 </p>
@@ -15,19 +15,19 @@
   </a>
 </p>
 
-# Coinlib for Flutter
+# MultiCoinlib for Flutter
 
 This package provides flutter support for the
-[coinlib](https://pub.dev/packages/coinlib) library for Peercoin and
+[multicoinlib](https://pub.dev/packages/multicoinlib) library for Peercoin and
 other cryptocoins. A `CoinlibLoader` widget is included that must be used when
 targeting web to ensure the library is ready to be used.
 
 An example app is provided in `example/` that demonstrates use of the loader
-widget. Beyond this, the [coinlib](https://pub.dev/packages/coinlib) library
+widget. Beyond this, the [multicoinlib](https://pub.dev/packages/multicoinlib) library
 documentation can be followed.
 
 Android, iOS, Linux, macOS, web, and Windows are supported. If you are using the
 package for Android, iOS, Linux, macOS or web, the library is ready to use. For
-Windows, run `dart run coinlib:build_windows` to build the library. See
-[coinlib's documentation](https://pub.dev/packages/coinlib) for more detailed
+Windows, run `dart run multicoinlib:build_windows` to build the library. See
+[multicoinlib's documentation](https://pub.dev/packages/multicoinlib) for more detailed
 instructions on and options for building the native library.

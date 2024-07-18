@@ -1,10 +1,10 @@
 import 'dart:typed_data';
-import 'package:coinlib/coinlib.dart';
+import 'package:multicoinlib/multicoinlib.dart';
 import 'package:test/test.dart';
 import '../../vectors/inputs.dart';
 import '../../vectors/taproot.dart';
 
-// Placed in global for lazy initialisation after loadCoinlib
+// Placed in global for lazy initialisation after loadMultiCoinlib
 final taprootVec = taprootVectors[3];
 final controlBlockHex = taprootVec.controlBlocks[0];
 final controlBlock = hexToBytes(controlBlockHex);
@@ -16,7 +16,7 @@ void main() {
 
   group("TaprootScriptInput", () {
 
-    setUpAll(loadCoinlib);
+    setUpAll(loadMultiCoinlib);
 
     test("valid script-path taproot inputs", () {
 

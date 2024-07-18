@@ -33,10 +33,10 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.1.1"
-  coinlib:
+  multicoinlib:
     dependency: transitive
     description:
-      name: coinlib
+      name: multicoinlib
       sha256: a90427e9b66202d52c282f15c7f1c35e63674ad62f65bb07de61fb73664cd2b9
       url: "https://pub.dev"
     source: hosted

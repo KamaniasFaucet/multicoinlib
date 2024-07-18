@@ -1,10 +1,10 @@
 import 'dart:typed_data';
-import 'package:coinlib/src/common/bytes.dart';
-import 'package:coinlib/src/crypto/ec_public_key.dart';
-import 'package:coinlib/src/scripts/program.dart';
-import 'package:coinlib/src/scripts/programs/p2witness.dart';
-import 'package:coinlib/src/scripts/script.dart';
-import 'package:coinlib/src/taproot.dart';
+import 'package:multicoinlib/src/common/bytes.dart';
+import 'package:multicoinlib/src/crypto/ec_public_key.dart';
+import 'package:multicoinlib/src/scripts/program.dart';
+import 'package:multicoinlib/src/scripts/programs/p2witness.dart';
+import 'package:multicoinlib/src/scripts/script.dart';
+import 'package:multicoinlib/src/taproot.dart';
 
 /// Pay-to-Taproot program taking a 32-byte Taproot tweaked key.
 class P2TR extends P2Witness {

@@ -40,5 +40,5 @@ void exitOnCode(int exitCode, String exitMsg) {
 }
 
 String createTmpDir()
-  => Directory.systemTemp.createTempSync("coinlibBuild").path;
+  => Directory.systemTemp.createTempSync("multicoinlibBuild").path;
 

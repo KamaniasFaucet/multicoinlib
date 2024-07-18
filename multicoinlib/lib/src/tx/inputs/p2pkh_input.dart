@@ -1,10 +1,10 @@
-import 'package:coinlib/src/crypto/ec_private_key.dart';
-import 'package:coinlib/src/crypto/ec_public_key.dart';
-import 'package:coinlib/src/scripts/operations.dart';
-import 'package:coinlib/src/scripts/programs/p2pkh.dart';
-import 'package:coinlib/src/scripts/script.dart';
-import 'package:coinlib/src/tx/sighash/sighash_type.dart';
-import 'package:coinlib/src/tx/transaction.dart';
+import 'package:multicoinlib/src/crypto/ec_private_key.dart';
+import 'package:multicoinlib/src/crypto/ec_public_key.dart';
+import 'package:multicoinlib/src/scripts/operations.dart';
+import 'package:multicoinlib/src/scripts/programs/p2pkh.dart';
+import 'package:multicoinlib/src/scripts/script.dart';
+import 'package:multicoinlib/src/tx/sighash/sighash_type.dart';
+import 'package:multicoinlib/src/tx/transaction.dart';
 import 'input.dart';
 import 'input_signature.dart';
 import 'legacy_input.dart';

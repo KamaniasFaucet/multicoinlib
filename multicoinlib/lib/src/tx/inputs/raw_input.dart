@@ -1,9 +1,9 @@
 import 'dart:typed_data';
-import 'package:coinlib/src/common/checks.dart';
-import 'package:coinlib/src/common/serial.dart';
-import 'package:coinlib/src/tx/outpoint.dart';
-import 'package:coinlib/src/tx/sighash/sighash_type.dart';
-import 'package:coinlib/src/tx/transaction.dart';
+import 'package:multicoinlib/src/common/checks.dart';
+import 'package:multicoinlib/src/common/serial.dart';
+import 'package:multicoinlib/src/tx/outpoint.dart';
+import 'package:multicoinlib/src/tx/sighash/sighash_type.dart';
+import 'package:multicoinlib/src/tx/transaction.dart';
 import 'input.dart';
 import 'input_signature.dart';
 

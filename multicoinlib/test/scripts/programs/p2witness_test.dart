@@ -1,11 +1,11 @@
-import 'package:coinlib/coinlib.dart';
+import 'package:multicoinlib/multicoinlib.dart';
 import 'package:test/test.dart';
 
 void main() {
 
   group("P2Witness", () {
 
-    setUpAll(loadCoinlib);
+    setUpAll(loadMultiCoinlib);
 
     expectP2Witness(P2Witness p2witness, int version, String program) {
       expect(p2witness.version, version);

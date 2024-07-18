@@ -37,7 +37,7 @@ void main() async {
   if (!await dockerBuild(
     cmd,
     dockerfile,
-    "coinlib_build_secp256k1_windows",
+    "multicoinlib_build_secp256k1_windows",
     "output/secp256k1.dll",
   )) {
     exit(1);

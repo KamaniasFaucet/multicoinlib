@@ -1,4 +1,4 @@
-import 'package:coinlib/coinlib.dart';
+import 'package:multicoinlib/multicoinlib.dart';
 import 'package:test/test.dart';
 import '../vectors/keys.dart';
 
@@ -30,7 +30,7 @@ final prefix = Network.mainnet.messagePrefix;
 void main() {
   group("MessageSignature", () {
 
-    setUpAll(loadCoinlib);
+    setUpAll(loadMultiCoinlib);
 
     test("can sign messages", () {
       for (final vec in msgSigs) {

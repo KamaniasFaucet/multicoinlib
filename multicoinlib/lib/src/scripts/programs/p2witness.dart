@@ -1,7 +1,7 @@
 import 'dart:typed_data';
-import 'package:coinlib/src/scripts/operations.dart';
-import 'package:coinlib/src/scripts/program.dart';
-import 'package:coinlib/src/scripts/script.dart';
+import 'package:multicoinlib/src/scripts/operations.dart';
+import 'package:multicoinlib/src/scripts/program.dart';
+import 'package:multicoinlib/src/scripts/script.dart';
 
 /// Arbitrary witness program
 class P2Witness implements Program {

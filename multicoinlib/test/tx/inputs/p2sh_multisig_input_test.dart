@@ -1,5 +1,5 @@
 import 'dart:typed_data';
-import 'package:coinlib/coinlib.dart';
+import 'package:multicoinlib/multicoinlib.dart';
 import 'package:test/test.dart';
 import '../../vectors/inputs.dart';
 import '../../vectors/keys.dart';
@@ -15,7 +15,7 @@ void main() {
 
     setUpAll(() async {
 
-      await loadCoinlib();
+      await loadMultiCoinlib();
 
       pks = validPubKeys
         .getRange(0, 4)

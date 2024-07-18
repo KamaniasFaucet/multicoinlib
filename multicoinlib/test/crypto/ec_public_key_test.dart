@@ -1,6 +1,6 @@
 import 'dart:typed_data';
 
-import 'package:coinlib/coinlib.dart';
+import 'package:multicoinlib/multicoinlib.dart';
 import 'package:test/test.dart';
 import '../vectors/keys.dart';
 
@@ -8,7 +8,7 @@ void main() {
 
   group("ECPublicKey", () {
 
-    setUpAll(loadCoinlib);
+    setUpAll(loadMultiCoinlib);
 
     test("requires 33 or 65 bytes", () {
 

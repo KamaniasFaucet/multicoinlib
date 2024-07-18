@@ -1,5 +1,5 @@
 import 'dart:typed_data';
-import 'package:coinlib/coinlib.dart';
+import 'package:multicoinlib/multicoinlib.dart';
 import 'package:test/test.dart';
 import '../vectors/tx.dart';
 import '../vectors/keys.dart';
@@ -8,7 +8,7 @@ void main() {
 
   group("Transaction", () {
 
-    setUpAll(loadCoinlib);
+    setUpAll(loadMultiCoinlib);
 
     final keyVec = keyPairVectors[0];
 

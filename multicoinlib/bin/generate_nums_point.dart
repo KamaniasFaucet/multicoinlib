@@ -1,9 +1,9 @@
 import 'dart:io';
-import 'package:coinlib/coinlib.dart';
+import 'package:multicoinlib/multicoinlib.dart';
 
 void main() async {
 
-  await loadCoinlib();
+  await loadMultiCoinlib();
 
   // Point as in https://www.secg.org/sec2-v2.pdf
   final generatorBytes = hexToBytes(

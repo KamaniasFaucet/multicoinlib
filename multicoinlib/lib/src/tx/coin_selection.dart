@@ -1,6 +1,6 @@
-import 'package:coinlib/src/common/serial.dart';
-import 'package:coinlib/src/crypto/random.dart';
-import 'package:coinlib/src/scripts/program.dart';
+import 'package:multicoinlib/src/common/serial.dart';
+import 'package:multicoinlib/src/crypto/random.dart';
+import 'package:multicoinlib/src/scripts/program.dart';
 import 'package:collection/collection.dart';
 import 'inputs/input.dart';
 import 'output.dart';

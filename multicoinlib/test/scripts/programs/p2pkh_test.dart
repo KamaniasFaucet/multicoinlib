@@ -1,4 +1,4 @@
-import 'package:coinlib/coinlib.dart';
+import 'package:multicoinlib/multicoinlib.dart';
 import 'package:test/test.dart';
 import '../../vectors/keys.dart';
 
@@ -6,7 +6,7 @@ void main() {
 
   group("P2PKH", () {
 
-    setUpAll(loadCoinlib);
+    setUpAll(loadMultiCoinlib);
 
     final asm = "OP_DUP OP_HASH160 $pubkeyhashVec OP_EQUALVERIFY OP_CHECKSIG";
     final script = Script.fromAsm(asm);

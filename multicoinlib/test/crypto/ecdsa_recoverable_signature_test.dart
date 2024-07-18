@@ -1,4 +1,4 @@
-import 'package:coinlib/coinlib.dart';
+import 'package:multicoinlib/multicoinlib.dart';
 import 'package:test/test.dart';
 import '../vectors/signatures.dart';
 
@@ -6,7 +6,7 @@ void main() {
 
   group("ECDSARecoverableSignature", () {
 
-    setUpAll(loadCoinlib);
+    setUpAll(loadMultiCoinlib);
 
     final hash = hexToBytes(
       "56282d1366c4b5d34a259fff5bdfd44e7013fa8213bc713758fdeed212d62fe8",

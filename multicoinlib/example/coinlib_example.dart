@@ -1,11 +1,11 @@
-import "package:coinlib/coinlib.dart";
+import "package:multicoinlib/multicoinlib.dart";
 
 void main() async {
 
   // Always remember to load the library for web use
-  // Flutter applications should use the coinlib_flutter plugin with the
-  // CoinlibLoader widget instead.
-  await loadCoinlib();
+  // Flutter applications should use the multicoinlib_flutter plugin with the
+  // MultiCoinlibLoader widget instead.
+  await loadMultiCoinlib();
 
   // Create a HD Key from a seed
   final seed = generateRandomBytes(16);
