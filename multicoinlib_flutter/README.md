@@ -1,15 +1,11 @@
 <p align="center">
   <img
-    src="https://raw.githubusercontent.com/peercoin/multicoinlib/master/logo.svg"
+    src="https://raw.githubusercontent.com/KamaniasFaucet/multicoinlib/master/logo.svg"
     alt="MultiCoinlib"
     width="250px"
   >
 </p>
-
 <p align="center">
-  <a href="https://chainz.cryptoid.info/ppc/address.dws?p77CZFn9jvg9waCzKBzkQfSvBBzPH1nRre">
-    <img src="https://badgen.net/badge/peercoin/Donate/green?icon=https://raw.githubusercontent.com/peercoin/media/84710cca6c3c8d2d79676e5260cc8d1cd729a427/Peercoin%202020%20Logo%20Files/01.%20Icon%20Only/Inside%20Circle/Transparent/Green%20Icon/peercoin-icon-green-transparent.svg" alt="Peercoin Donate">
-  </a>
   <a href="https://pub.dev/packages/multicoinlib_flutter">
     <img alt="pub.dev" src="https://img.shields.io/pub/v/multicoinlib_flutter?logo=dart&label=pub.dev">
   </a>
@@ -18,7 +14,7 @@
 # MultiCoinlib for Flutter
 
 This package provides flutter support for the
-[multicoinlib](https://pub.dev/packages/multicoinlib) library for Peercoin and
+[multicoinlib](https://pub.dev/packages/multicoinlib) library for Multicoin and
 other cryptocoins. A `CoinlibLoader` widget is included that must be used when
 targeting web to ensure the library is ready to be used.
 
