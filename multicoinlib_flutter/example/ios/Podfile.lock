@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: Flutter
 
 SPEC CHECKSUMS:
-  multicoinlib_flutter: 6abec900d67762a6e7ccfd567a3cd3ae00bbee35
+  multicoinlib_flutter: 4bd5a3f96436d6e05c075a202c3c7f622d4083d7
   Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
 
 PODFILE CHECKSUM: ef19549a9bc3046e7bb7d2fab4d021637c0c58a3

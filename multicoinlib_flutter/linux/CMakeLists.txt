@@ -15,7 +15,7 @@ add_subdirectory("${CMAKE_CURRENT_SOURCE_DIR}/../src" "${CMAKE_CURRENT_BINARY_DI
 # This list could contain prebuilt libraries, or libraries created by an
 # external build triggered from this build file.
 
-set(coinlib_flutter_bundled_libraries
+set(multicoinlib_flutter_bundled_libraries
   # Defined in ../src/CMakeLists.txt.
   # This can be changed to accomodate different builds.
   ${CMAKE_BINARY_DIR}/secp256k1/lib/libsecp256k1.so
