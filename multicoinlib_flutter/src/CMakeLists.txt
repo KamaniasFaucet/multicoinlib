@@ -3,7 +3,7 @@
 # has CMake 3.10 but this version is old.
 cmake_minimum_required(VERSION 3.13)
 
-project(multicoinlib_library VERSION 0.0.1 LANGUAGES C)
+project(multicoinlib_library VERSION 0.0.2 LANGUAGES C)
 
 # Build secp256k1 using the ExternalProject module
 
